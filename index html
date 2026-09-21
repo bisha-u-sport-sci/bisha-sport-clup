@@ -4,7 +4,7 @@
     <img
         src="11547272-cb99-4086-964c-3e29e1b9ec62.jpg"
         alt="شعار نادي علوم الرياضة"
-        class="logo-img"
+        class="header-logo"
     >
 
     <h1>نادي علوم الرياضة</h1>
@@ -12,6 +12,36 @@
     <h2>كلية التربية والتنمية البشرية</h2>
     <h2>جامعة بيشة</h2>
 </header>
+header {
+    background-color: #004d40;
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.header-logo {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+header h1 {
+    margin: 0 0 8px 0;
+    font-size: 28px;
+}
+
+header h2 {
+    margin: 3px 0;
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
 
     <div class="container">
         <!-- استبدل الرابط أدناه برابط صورتك في المستودع -->
